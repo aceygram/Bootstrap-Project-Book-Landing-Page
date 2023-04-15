@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Think Big and Kick Ass</title>
     <style>
         section{
@@ -19,7 +20,7 @@
         <div class="container-xxl">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold text-secondary">
-                    Think Big and Kick Ass - The Book
+                    <i class="bi bi-book-half"></i> Think Big and Kick Ass
                 </span>
             </a>
 
@@ -128,21 +129,80 @@
 
     <!-- topics at glace -->
 <section id="topics">
-    <div class="container-md">
+    <div class="container-md mb-5">
         <div class="text-center">
             <h2>Get to know more about the Book</h2>
             <p class="lead text-muted">A quick glance at the the cover, the authors and what you will learn in the book</p>
         </div>
 
-        <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="row my-0 g-5 justify-content-around align-items-center">
             <div class="col-6 col-lg-4">
-                <img src="/images/donald-trump-2.png" class="img-fluid" alt="donald trump at signing">
+                <img src="/images/donald-trump-3.png" class="img-fluid" alt="donald trump at signing">
             </div>
 
-            <!-- accordion -->
-            <div class="accordion" id="chapters">
-                <div class="accordion-item">
-                    h2
+            <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="more-book-info">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1"  aria-expanded="true" aria-controls="accordion-1">
+                                From the Back Cover
+                            </button>
+                        </h2>
+                        <div id="accordion-1" class="accordion-collapse collapse show" aria-labelledby="accordion-1" data-bs-parent="#more-book-info">
+                            <div class="accordion-body">
+                                <p>Donald J. Trump is an icon: the very definition of the American success story. The star of The Apprentice and developer of some of the planet's most prestigious real estate, he's been on the bottom and risen to become one of the world's wealthiest men.</p>
+                                <p>Bill Zanker started The Learning Annex with $5,000 of his own money. After meeting Donald Trump, Zanker learned to Think BIG himself and grew The Learning Annex from a $5 million a year company into one that's generating over $100 million a year in sales—and still growing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2"  aria-expanded="false" aria-controls="accordion-2">
+                                What you will Learn
+                            </button>
+                        </h2>
+                        <div id="accordion-2" class="accordion-collapse collapse" aria-labelledby="accordion-2" data-bs-parent="#more-book-info">
+                            <div class="accordion-body">
+                                <p>For the first time ever, you too can learn Trump's secrets to thinking BIG and kicking ass! Learn:</p>
+                                <p>
+                                    <ul>
+                                        <li>Momentum: the Big Mo. How to get it and how to get it back.</li>
+                                        <li>Revenge: how and when to get it (and why it's so sweet).</li>
+                                        <li>"I love you, now sign this!" Why contracts in business and personal life are so important.</li>
+                                        <li>Real-life stories from people who've applied the think BIG formula in their own lives.</li>
+                                   </ul>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3"  aria-expanded="false" aria-controls="accordion-3">
+                                About President-elect Donald J. Trump
+                            </button>
+                        </h2>
+                        <div id="accordion-3" class="accordion-collapse collapse" aria-labelledby="accordion-3" data-bs-parent="#more-book-info">
+                            <div class="accordion-body">
+                                <p>President-elect Donald J. Trump is a graduate of the Wharton School of Finance and the developer of some of the most prestigious addresses worldwide, including Trump Tower on Fifth Avenue, Trump Park Avenue, Trump World Tower, 40 Wall Street, The Grand Hyatt Hotel, the historic Mar-a-Lago Club in Palm Beach, the Palm Trump International Hotel and Tower in Dubai, and numerous award-winning golf courses.</p>
+                                <p>His Real Estate and Wealth Expos with The Learning Annex have helped over one million people to think BIG. As the Emmy-nominated star and coproducer of the hit television show The Apprentice and the author of seven bestsellers, he is truly a media giant. This is the first book where Donald reveals his Think BIG attitude.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4"  aria-expanded="false" aria-controls="accordion-4">
+                                About Bill Zanker
+                            </button>
+                        </h2>
+                        <div id="accordion-4" class="accordion-collapse collapse" aria-labelledby="accordion-4" data-bs-parent="#more-book-info">
+                            <div class="accordion-body">
+                                <p>Bill Zanker started The Learning Annex in 1980 with $5,000 of his own money. The Learning Annex has now spent two consecutive years on the Inc. magazine Fastest Growing Companies list with over $100 million in annual sales. The growth of his small business stems from Zanker's partnership with and learning from Donald J. Trump's think BIG strategies.</p>
+                                <p>Zanker has been featured in Success, Forbes, Fortune, Inc., and Money magazines. He lives in New York City and Park City, Utah.</p>
+                            </div>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
         </div>
@@ -150,9 +210,142 @@
 </section>
 
     <!-- reviews list -->
+<section id="reviews" class="bg-light">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2><i class="bi bi-stars"></i> Book Reviews</h2>
+            <p class="lead">What people said about the book...</p>
+        </div>
 
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-2">If you want to understand the real donald trump, then READ this book.</h5>
+                        <p class="mb-2">This book does not dissapoint if you reasonate with any of my Trump fandom. It gives you insight into his character and what motivates him. From reading this book you will learn what it means to be successful and how to adopt the mindset necessary for victory. I realize that all those slanderous mishaps that he made during the election were actually well explained within this book. To Donald Trump, it was important that he put those who would screw him over back in line. He compares these people to bullies from school who would only stop bullying if you hit them back just as hard or even harder.</p>
+                        <small>Reviewed by 	MD</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-2">The truth I had loved to have read at high school.</h5>
+                        <p class="mb-2">Not late though, you are never late to read this book. I have had many customers, I have known some very successful customers, and they share some qualities with Donald Trump: they never stop working, they take falls and hardships as intervals, they don't let themselves to demoralize by attacks of rivals with interests in watching them fall, they get wives or husbands that push them upwards, they demand dreams, some are even called crazy but their craziness materializes into towers that dominate their cities.</p>
+                        <small>Reinold F.</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-2">Not a waste of $18.99</h5>
+                        <p class="mb-2">I didn't know who Donald Trump was other than assuming he was an egomaniac millionaire. And then I saw a short presidential candidacy interview of him and wanted to know more about his beliefs- because he sounded right on. This book was written in 2008 and I thought that would give me an accurate idea of where his values are. But, I thought I'd be throwing away my $18.99 for the book because I'm more of a mouse thinker. Am about zen and creativity, survival-ism and am simply not a business person at all. A bullet dodger. I was pleasantly surprised to recognize a lot of truths in this book. I highlighted many passages.</p>
+                        <small>Reviewed by KLK</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-2">Learn from the best.</h5>
+                        <p class="mb-2">Without doubt a masterpiece. I thought the guy was a bit of a dick when he become president. Read this book and the guy deserved to be where he is and has my respect. Superb advice. Absorb each chapter and re-read and then act. You won't regret it.</p>
+                        <small>Reviewed by 	Roberto87</small>
+                    </div>
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <h5 class="mb-2">Magnificent self-improvement book</h5>
+                        <p class="mb-2">Thanks to 'The Apprentice USA', Donald Trump has re-emerged as a major figure within 21st century pop culture. It is easy to mock him. But reading this series of self-improvement books really does gives us wonderful insights in to what separates the mind of a multi-billionaire from the rest of the 7 billion people on this planet. As the title says, it is all about coming up with the big ideas and dreams. And then, doing all you can to realise them. Life really is brief. So, why think along small steps? This is the thinking behind Donald Trump.</p>
+                        <small>Reviewed by Brett_Bloom</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- contact form -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact us...</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="get">
+                        <label for="email" class="form-label">
+                            Email address:
+                        </label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. abc@example.com">
+                        </div>
+                    
+
+                        <label for="name" class="form-label">
+                            Name:
+                        </label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g. John">
+                        </div>
+                        
+
+                        <label for="Subject" class="form-label">
+                            What is your question about?
+                        </label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-question-circle-fill"></i>
+                            </span>
+                            <select name="" class="form-select" id="subject">
+                                <option value="pricing" selected>Pricing query</option>
+                                <option value="content">Content query</option>
+                                <option value="other">Other query</option>
+                            </select>
+                        </div>
+
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+                            <label for="query">Your query...</label>
+                        </div>
+                        
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- get updates / modal trigger  -->
