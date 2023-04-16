@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="/css/main.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel = "icon" href ="images/book-half.svg" 
         type = "image/x-icon">
@@ -18,10 +18,10 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-xxl">
+    <nav class="navbar navbar-expand-md navbar-dark bg-light shadow">
+        <div class="container-xxl  my-2">
             <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">
+                <span class="fw-bold text-white">
                     <i class="bi bi-book-half"></i> Think Big and Kick Ass
                 </span>
             </a>
@@ -47,7 +47,7 @@
                         <a href="#pricing" class="nav-link">Pricing</a>
                     </li>
                     <li class="nav-item ms-2 d-none d-md-inline text-light">
-                        <a href="#pricing" class="btn btn-secondary">Buy Now</a>
+                        <a href="#pricing" class="btn btn-primary text-white">Buy Now</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
 
 
     <!-- main image and intro text -->
-    <section id="intro">
+    <section id="intro" class="bg-secondary">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
@@ -71,9 +71,9 @@
                     <p class="lead my-4 text-muted">
                         Donald J. Trump is an icon: the very definition of the American success story.
                     </p>
-                    <a href="#pricing" class="btn btn-secondary btn-lg container-fluid">Buy Now</a>
+                    <a href="#pricing" class="btn btn-light btn-lg container-fluid border-3">Buy Now</a>
                     <!-- open sidebar / offcanvas -->
-                    <a href="#sidebar" class="d-block mt-3 btn btn-outline-secondary btn-lg " data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore his other books</a>
+                    <a href="#sidebar" class="d-block mt-3 btn btn-outline-light btn-lg border border-light border-2" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore his other books</a>
                     <!-- <a href="#sidebar" class="d-lg-block mt-3 d-none" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore his other books</a> -->
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
@@ -88,28 +88,28 @@
     </section>
 
     <!-- pricing plans -->
-<section id="pricing" class="bg-light mt-5">
+<section id="pricing" class="bg-light pt-5">
     <div class="conatiner-lg">
         <div class="text-center">
-            <h2>Pricing Plans</h2>
-            <div class="lead text-muted">Choose a pricing plan to suit you</div>
+            <h2 class="text-white">Pricing Plans</h2>
+            <div class="lead text-white">Choose a pricing plan to suit you</div>
         </div>
 
-        <div class="row my-5 align-items-center justify-content-center g-0">
+        <div class="row my-5 align-items-center justify-content-center g-5 g-lg-0">
             <div class="col-8 col-lg-4 col-xl-3">
-                <div class="card border-0">
+                <div class="card border border-primary border-3">
                     <div class="card-body text-center py-4">
                         <h4 class="card-title">Starter Edition</h4>
                         <p class="lead card-subtitle">eBook download only</p>
                         <p class="display-5 my-4 text-primary fw-bold">12.99</p>
                         <div class="card-text mx-5 text-muted d-none d-lg-block">Get the ebook version of Think Big and Kick Ass, Today</div>
-                        <a href="#" class="btn btn-outline-primary btn-lg mt-3 border-2">Buy Now</a>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3 border-2 text-hover-white">Buy Now</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-9 col-lg-4">
-                <div class="card border-2 border-primary">
+                <div class="card border border-3 border-primary">
                     <div class="card-header text-center text-primary">Most Popular</div>
                     <div class="card-body text-center py-5">
                         <h4 class="card-title">Ultimate Edition</h4>
@@ -122,7 +122,7 @@
             </div>
 
             <div class="col-8 col-lg-4 col-xl-3">
-                <div class="card border-0">
+                <div class="card border border-primary border-3">
                     <div class="card-body text-center py-4">
                         <h4 class="card-title">Complete Edition</h4>
                         <p class="lead card-subtitle">hard copy only</p>
@@ -221,16 +221,16 @@
     <!-- reviews list -->
 <section id="reviews" class="bg-light">
     <div class="container-lg">
-        <div class="text-center">
+        <div class="text-center text-white">
             <h2><i class="bi bi-stars"></i> Book Reviews</h2>
             <p class="lead">What people said about the book...</p>
         </div>
 
-        <div class="row justify-content-center my-5">
+        <div class="row justify-content-center my-5 ">
             <div class="col-lg-8">
-                <div class="list-group">
-                    <div class="list-group-item py-3">
-                        <div class="pb-2">
+                <div class="list-group ">
+                    <div class="list-group-item py-3 bg-secondary">
+                        <div class="pb-2 text-light">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -241,8 +241,8 @@
                         <p class="mb-2">This book does not dissapoint if you reasonate with any of my Trump fandom. It gives you insight into his character and what motivates him. From reading this book you will learn what it means to be successful and how to adopt the mindset necessary for victory. I realize that all those slanderous mishaps that he made during the election were actually well explained within this book. To Donald Trump, it was important that he put those who would screw him over back in line. He compares these people to bullies from school who would only stop bullying if you hit them back just as hard or even harder.</p>
                         <small>Reviewed by 	MD</small>
                     </div>
-                    <div class="list-group-item py-3">
-                        <div class="pb-2">
+                    <div class="list-group-item py-3 bg-secondary">
+                        <div class="pb-2 text-light">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -253,8 +253,8 @@
                         <p class="mb-2">Not late though, you are never late to read this book. I have had many customers, I have known some very successful customers, and they share some qualities with Donald Trump: they never stop working, they take falls and hardships as intervals, they don't let themselves to demoralize by attacks of rivals with interests in watching them fall, they get wives or husbands that push them upwards, they demand dreams, some are even called crazy but their craziness materializes into towers that dominate their cities.</p>
                         <small>Reinold F.</small>
                     </div>
-                    <div class="list-group-item py-3">
-                        <div class="pb-2">
+                    <div class="list-group-item py-3 bg-secondary">
+                        <div class="pb-2 text-light">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -265,8 +265,8 @@
                         <p class="mb-2">I didn't know who Donald Trump was other than assuming he was an egomaniac millionaire. And then I saw a short presidential candidacy interview of him and wanted to know more about his beliefs- because he sounded right on. This book was written in 2008 and I thought that would give me an accurate idea of where his values are. But, I thought I'd be throwing away my $18.99 for the book because I'm more of a mouse thinker. Am about zen and creativity, survival-ism and am simply not a business person at all. A bullet dodger. I was pleasantly surprised to recognize a lot of truths in this book. I highlighted many passages.</p>
                         <small>Reviewed by KLK</small>
                     </div>
-                    <div class="list-group-item py-3">
-                        <div class="pb-2">
+                    <div class="list-group-item py-3 bg-secondary">
+                        <div class="pb-2 text-light">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -277,8 +277,8 @@
                         <p class="mb-2">Without doubt a masterpiece. I thought the guy was a bit of a dick when he become president. Read this book and the guy deserved to be where he is and has my respect. Superb advice. Absorb each chapter and re-read and then act. You won't regret it.</p>
                         <small>Reviewed by 	Roberto87</small>
                     </div>
-                    <div class="list-group-item py-3">
-                        <div class="pb-2">
+                    <div class="list-group-item py-3 bg-secondary">
+                        <div class="pb-2 text-light">
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
@@ -359,7 +359,7 @@
                         </div>
                         
                         <div class="mb-4 text-center">
-                            <button type="submit" class="btn btn-secondary">Submit</button>
+                            <button type="submit" class="btn btn-primary text-white">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -371,14 +371,14 @@
         <!-- get updates / modal trigger  -->
     <section class="bg-light">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center text-white">
                 <h2>Stay in The Loop</h2>
                 <div class="lead">Get the latest updates as they happen...</div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
-                    <p class="text-muted my-4">Donald J. Trump is the very definition of the American success story, continually setting the standards of excellence while expanding his interests in real estate, sports, and entertainment. He is a graduate of the Wharton School of Finance. An accomplished author, Mr. Trump has authored over fifteen bestsellers and his first book, The Art of the Deal, is considered a business classic and one of the most successful business books of all time. President-elect Trump has over hundred million followers on social media and is a frequent guest across a variety of media platforms. </p>
-                    <button class="btn btn-primary" data-bs-target="#reg-modal" data-bs-toggle="modal">
+                    <p class="text-white my-4">Donald J. Trump is the very definition of the American success story, continually setting the standards of excellence while expanding his interests in real estate, sports, and entertainment. He is a graduate of the Wharton School of Finance. An accomplished author, Mr. Trump has authored over fifteen bestsellers and his first book, The Art of the Deal, is considered a business classic and one of the most successful business books of all time. President-elect Trump has over hundred million followers on social media and is a frequent guest across a variety of media platforms. </p>
+                    <button class="btn btn-primary text-white" data-bs-target="#reg-modal" data-bs-toggle="modal">
                         Register for Updates
                     </button>
                 </div>
@@ -389,10 +389,10 @@
     <!-- modal itself -->
     <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content bg-light text-white">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
-                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button class="btn-close bg-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>Discover more of the author’s books, see similar books created by Donald Trump and Bill Zanker, read their blogs, follow their social media pages and more</p>
@@ -400,7 +400,7 @@
                     <input type="email" class="form-control" id="modal-email" placeholder="abc@example.com">
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-primary text-white">Submit</button>
                 </div>
             </div>
         </div>
@@ -408,11 +408,31 @@
 
     <!-- offcanvas -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
-        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">His Other Books</h5>
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Looking to take your personal and professional life to the next level? A selection of Donald Trump's business and life improvement books has got you covered. From leadership strategies to financial planning, his books provides you with practical advice and strategies for success. So why wait? Start exploring his collection today and discover the tools you need to unlock your full potential.</p>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" id="book-dropdown" type="button" data-bs-toggle="dropdown">
+                    Choose a book title
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                    <li><a href="#" class="dropdown-item">Trump: The Art if the Deal</a></li>
+                    <li><a href="#" class="dropdown-item">Why We Want You To Be Rich: Two Men</a></li>
+                    <li><a href="#" class="dropdown-item">Great Again</a></li>
+                    <li><a href="#" class="dropdown-item">Trump: How to Get Rich</a></li>
+                    <li><a href="#" class="dropdown-item">Trump: Think Like a Billionaire</a></li>
+                    <li><a href="#" class="dropdown-item">The America We Deserve</a></li>
+                    <li><a href="#" class="dropdown-item">Midas Touch</a></li>
+                    <li><a href="#" class="dropdown-item">Trumped: Think Like a Bazillionaire</a></li>
+                </ul>
+            </div>
+        </div>
 
+        
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
